@@ -175,7 +175,6 @@ func itemsMsg(loc string) {
 		message += ", на стуле: " + strings.Join(chairItemsNames, ", ")
 	}
 
-	// Установка значения сообщения
 	if len(onTableItems)+len(onChairItems) == 0 {
 		msg.items = "пустая комната"
 		return
